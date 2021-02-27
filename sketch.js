@@ -51,7 +51,7 @@ function draw() {
 
   console.log(star.y);
 
-  if(star.y > 425){
+  if(star.y < 425){
   	Matter.Body.setStatic(starBody,true);
   }
  if(keyDown("RIGHT_ARROW")){
