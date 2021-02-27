@@ -51,7 +51,7 @@ function draw() {
 
   console.log(star.y);
 
-  if(star.y > 400){
+  if(star.y > 425){
   	Matter.Body.setStatic(starBody,true);
   }
  if(keyDown("RIGHT_ARROW")){
@@ -66,7 +66,7 @@ function draw() {
 	fairy.scale =0.85;
 }
 
-if (fairy.x > 509 && fairy.x < 541 && star.y < 400) {
+if (fairy.x > 509 && fairy.x < 541 && star.y < 425) {
  Matter.Body.setStatic(starBody,false); 
 }
 
